@@ -50,10 +50,10 @@
 }
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-.story-image.pull-left {
+.story-image.pull-left, .portrait-image.pull-left {
   margin-right: 40px;
 }
-.story-image.pull-right {
+.story-image.pull-right, .portrait-image.pull-right {
   margin-left: 40px;
 }
 
@@ -100,10 +100,12 @@
         padding: 0;
       }
       .story-image.pull-left,
-      .story-image.pull-right {
+      .story-image.pull-right, 
+      .portrait-image.pull-left, 
+      .portrait-image.pull-right {
         display: block;
         float: none;
-        max-width: 40%;
+        max-width: 80%;
         margin: 0 auto 20px;
       }
     }
