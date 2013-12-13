@@ -1,0 +1,509 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+html,body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  color: #5a5a5a;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #7A00CC;
+  border-color: #6b00b3;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #5b0099;
+  border-color: #4c0080;
+}
+
+.btn-default {
+  color: #ffffff;
+  background-color: #474949;
+  border-color: #474949;
+}
+
+.btn-large {
+  padding: 14px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar {
+  border: 0px solid #e7e7e7;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-wrapper .navbar {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navbar-brand {	
+	max-width: 700px;
+	padding: 0px 0px 0px 10px;
+    text-align: left;
+}
+
+.navbar-toggle {
+
+	padding: 8px 12px;
+	border: 1px solid #777777;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #1A1A1A;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #777777;
+  border-radius: 1px;
+}
+
+.navbar-toggle:hover .icon-bar,
+.navbar-toggle:focus .icon-bar {
+  background-color: #FAFAFA;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  color: #333333;
+  border-radius: 4px;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #FAFAFA;
+  background-color: #1A1A1A;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: #FAFAFA;
+  background-color: #1A1A1A;
+}
+
+
+#logo {
+	float: left; /* float items left to stay lined up */
+	max-width: 33px;
+	height: auto;
+	margin-right: 5px;
+	padding-top: 2px;
+}
+
+/* so on toggle, the nav list does not cover up the logo */
+#logo-text-wrap {
+	display: inline-block;
+}
+
+#logo-text {
+	float:left; /* float items left to stay lined up */
+	padding-top: 9px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 15px;
+	color: #333333;
+}
+
+#logo-subtext {
+	font-size: 11px;
+	padding-top: 10px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 10px;
+
+	/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	margin-top: 50px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 300px;
+	overflow: hidden;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+	text-align: left;
+	left: 10%;
+	width:80%;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+
+.carousel-caption h1 {
+    font-size: 20px;
+}
+
+.carousel-caption p {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	background-color: #5b0099;
+}
+
+/* MOTTO CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.motto .col-lg-4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.motto h1 {
+	font-weight: normal;
+	font-size: 55px;
+	margin: 25px  5px;
+}
+
+.motto .col-lg-4 p {
+	font-size: 20px;
+	margin: 20px 10px;
+}
+
+.motto-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+@media (min-width: 768px) {
+
+	/* Remove the edge padding needed for mobile */
+	.marketing {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.motto-divider {
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.motto h1 {
+		font-size: 40px;
+	}
+	
+	.motto p {
+		height: 110px;
+	}
+	
+	.motto .btn {
+		display: block;
+		padding: 8px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.428571429;
+		text-align: center;
+		white-space: normal;
+		vertical-align: middle;
+		cursor: pointer;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+}
+
+@media (min-width: 992px) {
+	.motto p {
+		height: 75px;
+	}
+}
+
+/* storyboards
+------------------------- */
+
+.story-divider {
+	margin: 50px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.story {
+	padding-top: 0px; /* Vertically center images part 1: add padding above and below text. */
+	overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+
+.story-image {
+	margin-top: 15px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+	margin-bottom: 30px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.story-image.pull-left {
+	margin-right: 40px;
+}
+
+.story-image.pull-right {
+	margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.story-heading {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+@media (min-width: 992px) {
+
+	.story-heading {
+		font-size: 42px;
+	}
+	
+	.story-image {
+		margin-bottom: 10px;
+	}
+	
+	.story-divider {
+		margin: 80px 0; /* Space out the Bootstrap <hr> more */
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	.story-heading {
+		font-size: 50px;
+	}
+	
+	.story {
+		padding-top: 10px; /* Vertically center images part 1: add padding above and below text. */
+	}
+	
+	.story-image {
+		margin-top: -10px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+	}
+
+}
+
+/*  Footer
+------------------------------------------------- */
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	padding-top: 20px;
+	height: 60px;
+}
+
+#footer p.text-center {
+	margin-top: 20px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 480px) {
+
+/* ---------- CAROUSEL -------------------------------------------------- */
+
+	.carousel .item {
+		height: 300px;
+	}
+	
+	.carousel-caption {
+		width:60%;
+	}
+	
+	.carousel-caption p {
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+/* ---------- NAVBAR -------------------------------------------------- */
+
+	.navbar-nav > li > a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		line-height: 20px;
+		color: #333333;
+		border-radius: 0px;
+	}
+
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+		color: #FAFAFA;
+		background-color: #1A1A1A;
+	}
+
+	.navbar-nav > .active > a,
+	.navbar-nav > .active > a:hover,
+	.navbar-nav > .active > a:focus {
+		color: #FAFAFA;
+		background-color: #1A1A1A;
+	}
+
+	.navbar-nav > .disabled > a,
+	.navbar-nav > .disabled > a:hover,
+	.navbar-nav > .disabled > a:focus {
+		color: #cccccc;
+		background-color: transparent;
+	}
+	
+	/* Navbar positioning foo */
+	.navbar-wrapper {
+		margin-top: 20px;
+	}
+	/* The navbar becomes detached from the top, so we round the corners */
+	.navbar-wrapper .navbar {
+		border-radius: 4px;
+	}
+	
+	.navbar-brand {	
+		padding: 0px 15px;
+	}
+	
+/* ---------- CAROUSEL -------------------------------------------------- */
+	
+	.carousel {
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+	
+	.carousel .item {
+		height: 410px;
+	}
+	
+	.carousel-caption {
+		z-index: 10;
+		text-align: left;
+		left: 10%;
+		width:45%;
+		text-shadow: 0 2px 2px rgba(0, 0, 0, 0.8);
+		font-size: 20px;
+	}
+	
+	/* Bump up size of carousel content */
+	.carousel-caption h1 {
+    	font-size: 25px;
+	}
+	
+	.carousel-caption p {
+		margin-bottom: 20px;
+		font-size: 18px;
+		line-height: 1.4;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+/* ---------- CAROUSEL -------------------------------------------------- */
+
+	.carousel .item {
+		height: 500px;
+	}
+	
+	/* Bump up size of carousel content */
+	.carousel-caption h1 {
+    	font-size: 30px;
+	}
+	
+	.carousel-caption p {
+		font-size: 21px;
+	}
+  
+}
+
+@media (min-width: 1200px) {
+	
+/* ---------- CAROUSEL -------------------------------------------------- */
+
+	.carousel .item {
+		height: 525px;
+	}
+	
+	.carousel-caption {
+		padding-bottom: 90px;
+	}
+	
+	.carousel-caption p {
+		margin-bottom: 0px;
+	}
+	
+}
+
