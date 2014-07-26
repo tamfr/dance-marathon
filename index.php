@@ -1,57 +1,17 @@
-
+<?php $thisPage="Home"; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: http://ogp.me/ns#">
   <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.png">
-
-    <title>Dance Marathon at Case Western Reserve University</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/dance.css" rel="stylesheet">
+	<?php include_once("includes/head.php") ?> 
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
   <?php include_once("includes/analyticstracking.php") ?>
+
 <div id="wrap">
-<div class="navbar-wrapper">
-	<div class="container">
-		<div class="navbar navbar-default navbar-static-top">
-			<div class="container">
-				<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="test.html">
-				<div id="logo"><img class="img-responsive" src="img/logo.png" /></div>
-				<div id="logo-text-wrap"><div id="logo-text">Dance Marathon<br /><span id="logo-subtext">at Case Western Reserve University</span></div></div></a>
-				</div><!-- /.navbar-header -->
-				<div class="navbar-collapse collapse">
-				  <ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">Founders</a></li>
-					<li><a href="downloads/Constitution-of-Dance-Marathon-at-CWRU.pdf">Constitution</a></li>
-					<li><a href="http://www.spartanthon.org">SpartanThon</a></li>
-					<li><a href="#">Contact</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container -->
-		</div><!-- /.navbar -->
-	</div><!-- /.container -->
-</div><!-- /.navbar-wrapper -->
 
-
-
+	<?php include_once("includes/navigation.php") ?>
 
     <!-- Carousel
     ================================================== -->
@@ -208,7 +168,7 @@
       <div class="story">
         <img class="story-image pull-left col-xs-12 col-md-6 col-lg-6" src="img/story-08.jpg" alt="dance marathon UH pumpkin painting">
         <h2 class="story-heading">Boo! <span class="text-muted">Pumpkin painting with the kids.</span></h2>
-        <p class="lead">We're still writing! Check back later for more of the story.</p>
+        <p class="lead">In an effort to better engage the children in the hospital, we set out to bring in a little Halloween spirit through a pumpkin painting event.  Having no budget, the group acquired over 150 pumpkins through donations.  Unfortunately we found out the cancer patients couldn't participate due to the pumpkins possibly carrying infectious agents.  So we painted them with other patients and did a lot ourselves.  We distributed them on the non-oncology floors and brought smiles to many kids' faces!</p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
@@ -218,7 +178,7 @@
       <div class="story">
         <img class="story-image pull-right col-xs-12 col-md-6 col-lg-6" src="img/story-09.jpg" alt="dance marathon trick or treat bags">
         <h2 class="story-heading">Trick or treat! <span class="text-muted">We refuse to lose.</span></h2>
-        <p class="lead">We're still writing! Check back later for more of the story.</p>
+        <p class="lead">In being heartbroken that all the effort in putting together the pumpkin painting event came short on impacting cancer patients, we devised a new strategy: tick or treat bags. It was perfect, it fit the essence of halloween, we didn't need to hand deliver it, and nothing inside could be considered hazardous.  The beautiful artwork was done by Anna and the whole project thoroughly exceeding our expectations.</p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
@@ -228,7 +188,7 @@
       <div class="story">
         <img class="story-image pull-left col-xs-12 col-sm-5 col-lg-3" src="img/story-10.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars trek poster">
         <h2 class="story-heading">Thrusters on full. <span class="text-muted">Building momentum.</span></h2>
-        <p class="lead">In an effort to bring students and faculty together, we embarked on something truly unique, something special, something to our knowledge, no other dance marathon was doing: Dancing with the Stars.  But to avoid copyright issues, we called it Dancing with the CWRU Stars.  We recruited nine CWRU faculty and staff and paired them with professional dancers from around the area.  The stage was set, this was would be the event to see whether we have the guts; whether we could do something big, our stepping stone to the marathon.</p>
+        <p class="lead">In an effort to bring students and faculty together, we embarked on something truly unique, something special, something to our knowledge, no other dance marathon was doing: Dancing with the Stars.  But to avoid copyright issues, we called it Dancing with the CWRU Stars.  We recruited nine CWRU faculty and staff and paired them with professional dancers from around the area.  The stage was set, this was would be the event to see whether we had the guts; whether we could do something big, our stepping stone to the marathon.</p>
       </div>
 
 <!-- =============================== storyboard =============================== -->
@@ -236,9 +196,29 @@
       <hr class="story-divider">
 
       <div class="story">
-        <img class="story-image pull-right col-xs-12 col-md-6 col-lg-6" src="img/story-11.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars event preparation">
+        <img class="story-image pull-right col-xs-12 col-md-6 col-lg-6" src="img/story-10a.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars event preparation">
         <h2 class="story-heading">Learning to dance. <span class="text-muted">Prepping for the big event.</span></h2>
-        <p class="lead">We're still writing! Check back later for more of the story.</p>
+        <p class="lead">It was beginning to feel real, the first Dancing with the CWRU Stars was only a few hours away and through the effort of a wonderful team and family, Horsburgh Gym really came together.   We had no money, no budget, everything was pulled together through donation and creativity. Lighting: a couple studio lights and an old flood on a chair.  Sound: random equipment from Delt. Floor outlining: icicle lights.  A definite recipe for success.</p>
+      </div>
+      
+<!-- =============================== storyboard =============================== -->
+
+      <hr class="story-divider" id="inspire2">
+
+      <div class="story">
+        <img class="story-image pull-left col-xs-12 col-sm-5 col-lg-3" src="img/story-10b.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars trek poster">
+        <h2 class="story-heading">All hands on deck. <span class="text-muted">The balloons are in.</span></h2>
+        <p class="lead">In a last minute effort to step up the production, we purchased a balloon arch kit: assembly required.  But if any team could make it happen it was ours.  The spice of purple and white really helped make the event feel special and we loved the way it turned out.</p>
+      </div>
+      
+<!-- =============================== storyboard =============================== -->
+
+      <hr class="story-divider">
+
+      <div class="story">
+        <img class="story-image pull-right col-xs-12 col-md-6 col-lg-6" src="img/story-10c.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars event preparation">
+        <h2 class="story-heading">Beautiful trophies. <span class="text-muted">Made by beautiful sisters.</span></h2>
+        <p class="lead">A few sisters from AXO took on the tall order of making the inaugural trophies.  Inspired by the actual ones from the show, they emulated them beautifully using stemware, disco balls, and bent wire.  A frugal path to a rich production.</p>
       </div>
 
 <!-- =============================== storyboard =============================== -->
@@ -256,9 +236,9 @@
       <hr class="story-divider">
 
       <div class="story">
-        <img class="story-image pull-left col-xs-12 col-md-6 col-lg-6" src="img/story-11b.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Mike Kenney and Shannon Liauw">
+        <img class="story-image pull-left col-xs-12 col-md-6 col-lg-6" src="img/story-11.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Mike Kenney and Shannon Liauw">
         <h2 class="story-heading">Chemist in the classroom. <span class="text-muted">Chemistry on the dance floor.</span></h2>
-        <p class="lead">We're still writing! Check back later for more of the story.</p>
+        <p class="lead">In an effort to bring students and faculty together, we embarked on making an event truly unique to Case: Dancing with the CWRU Stars.  This event would also serve as a stepping stone to Dance Marathon and would prove if we had what takes. After months of planning and hard work, what became of it, was truly remarkable.</p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
@@ -266,9 +246,9 @@
       <hr class="story-divider">
 
       <div class="story">
-        <img class="story-image pull-right col-xs-12 col-sm-5 col-lg-3" src="img/story-11c.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Glenn Nicholls as judge">
+        <img class="story-image pull-right col-xs-12 col-sm-5 col-lg-3" src="img/story-11b.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Glenn Nicholls as judge">
         <h2 class="story-heading">Tonight's judging. <span class="text-muted">The man of student life.</span></h2>
-        <p class="lead">In an effort to bring students and faculty together.  Time to see if this thing was worth it.  Will Dance Marathon capture the hearts and minds of the world (well the campus that it is), or will it flop?  It was a hot sunny day at the 2009 Student Activities fair, the strategy was simple: no sitting, stand in front of the table, and don't let anyone walk by without telling them our story (as short as it was).</p>
+        <p class="lead"> We're still writing! Check back later for more of the story.</p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
@@ -626,8 +606,8 @@
       <hr class="story-divider">
 
       <div class="story">
-        <a href="http://case.phimu.org/" target="_blank"><img class="story-image pull-right col-xs-12 col-md-6 col-lg-6" src="img/story-41.jpg" alt="CWRU dance marathon case western 2010 phi mu"></a>
-        <h2 class="story-heading">Morale booster. <span class="text-muted">The sisters of Phi Mu.</span></h2>
+        <!--<a href="http://case.phimu.org/" target="_blank"><img class="story-image pull-right col-xs-12 col-md-6 col-lg-6" src="img/story-43.jpg" alt="CWRU dance marathon case western 2010 phi mu"></a>-->
+        <h2 class="story-heading">More coming soon. <span class="text-muted">Keep dancing!</span></h2>
         <p class="lead">We're still writing! Check back later for more of the story.</p>
       </div>
       
@@ -642,7 +622,7 @@
 <div id="footer">
 	<div class="container">
 		<p class="pull-right"><a href="#">Back to top</a></p>
-		<p>&copy; 2013 Dance Marathon at Case Western Reserve University &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+		<p>&copy; 2014 Dance Marathon at Case Western Reserve University &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 	</div><!-- /.container -->
 </div><!-- /#footer -->
 

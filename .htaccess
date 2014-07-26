@@ -1,0 +1,8 @@
+Options -MultiViews
+
+# Disable Automatic Directory detection
+DirectorySlash Off
+
+# Hide extension
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php

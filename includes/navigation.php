@@ -1,6 +1,6 @@
 <div class="navbar-wrapper">
 	<div class="container">
-		<div class="navbar navbar-static-top">
+		<div class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -14,8 +14,10 @@
 				</div><!-- /.navbar-header -->
 				<div class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">Founders</a></li>
+					<li<?php if ($thisPage=="Home") 
+echo " class=\"active\""; ?>><a href="/">Home</a></li>
+					<li<?php if ($thisPage=="Founders") 
+echo " class=\"active\""; ?>><a href="http://dmcwru.org/founders">Founders</a></li>
 					<li><a href="downloads/Constitution-of-Dance-Marathon-at-CWRU.pdf">Constitution</a></li>
 					<li><a href="http://www.spartanthon.org">SpartanThon</a></li>
 					<li><a href="#">Contact</a></li>
@@ -25,4 +27,3 @@
 		</div><!-- /.navbar -->
 	</div><!-- /.container -->
 </div><!-- /.navbar-wrapper -->
-
