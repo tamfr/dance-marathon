@@ -42,10 +42,15 @@ html,body {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar {
   border: 0px solid #e7e7e7;
+  background: rgba(245,245,245,0);
+}
+
+.navbar-background {
+	background: rgba(245,245,245,0.8);
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
+nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -105,21 +110,26 @@ html,body {
   padding-top: 15px;
   padding-bottom: 15px;
   line-height: 20px;
-  color: #333333;
   border-radius: 4px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #555555;
 }
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-  color: #FAFAFA;
-  background-color: #1A1A1A;
+  font-weight:500;
+  color: #444444;
+  background-color: none;
 }
 
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-  color: #FAFAFA;
-  background-color: #1A1A1A;
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  font-weight:600;
+  color: #222222;
+  background-color: transparent;
 }
 
 
@@ -148,6 +158,31 @@ html,body {
 #logo-subtext {
 	font-size: 11px;
 	padding-top: 10px;
+}
+
+/* when hidden it goes up */ 
+nav.invisible {
+-webkit-transform: translate(0,-64px);
+  -moz-transform: translate(0,-64px);
+  -o-transform: translate(0,-64px);
+  transform: translate(0,-64px);
+  -webkit-transition: -webkit-transform .4s;
+  -moz-transition: -moz-transform .4s;
+  -o-transition: -o-transform .4s;
+  transition: transform .4s;
+  opacity: 0;
+}
+
+
+/* when shown & detached position is fixed */
+nav.detached {
+  position: fixed;
+  background: rgba(240,240,240);
+  background: rgba(240,240,240,.95);
+  -webkit-transition: -webkit-transform .4s, height .3s, background .4s, opacity .3s;
+  -moz-transition: -moz-transform .4s, height .3s, background .4s, opacity .3s;
+  -o-transition: -o-transform .4s, height .3s, background .4s, opacity .3s;
+  transition: transform .4s, height .3s, background .4s, opacity .3s;
 }
 
 

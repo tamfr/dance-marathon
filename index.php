@@ -8,10 +8,12 @@
 ================================================== -->
   <body>
   <?php include_once("includes/analyticstracking.php") ?>
+  
+  <?php include_once("includes/navigation.php") ?>
 
 <div id="wrap">
 
-	<?php include_once("includes/navigation.php") ?>
+	
 
     <!-- Carousel
     ================================================== -->
@@ -627,10 +629,11 @@
 </div><!-- /#footer -->
 
 
-    <!-- Bootstrap core JavaScript
+    <!-- JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/nav.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
