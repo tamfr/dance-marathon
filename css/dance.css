@@ -42,10 +42,11 @@ html,body {
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar {
   border: 0px solid #e7e7e7;
-  background: rgba(245,245,245,0);
+  background: transparent;
 }
 
 .navbar-background {
+	background: rgba(245,245,245);
 	background: rgba(245,245,245,0.8);
 }
 
