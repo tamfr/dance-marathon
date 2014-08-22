@@ -250,7 +250,7 @@
       <div class="story">
         <img class="story-image pull-right col-xs-12 col-sm-5 col-lg-3" src="img/story-11b.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Glenn Nicholls as judge">
         <h2 class="story-heading">Tonight's judging. <span class="text-muted">The man of student life.</span></h2>
-        <p class="lead"> We're still writing! Check back later for more of the story.</p>
+        <p class="lead"> A supporter from the beginning, <a href="https://www.youtube.com/watch?v=0gxsrhuigps">Glenn Nicholls</a> has made a huge impact on the university and student life through his role as Vice President of Student Affairs.  We were absolutely honored to have him judge the inaugural Dancing with the CWRU Stars along side Director of Greek Life </p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
