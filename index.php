@@ -26,7 +26,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/slide-01.jpg" alt="">
+          <img src="img/slide-01.jpg" alt="dance marathon case western reserve spartanthon">
           <div class="container">
             <div class="carousel-caption">
               <h1>FOR THE KIDS.</h1>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/slide-02.jpg" alt="">
+          <img src="img/slide-02.jpg" alt="first dance marathon case western reserve spartanthon">
           <div class="container">
             <div class="carousel-caption">
               <h1>12 Hours On Our Feet.</h1>
@@ -46,7 +46,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/slide-03.jpg" alt="">
+          <img src="img/slide-03.jpg" alt="dancing with the cwru stars spartanthon">
           <div class="container">
             <div class="carousel-caption">
               <h1>Where the Stars Dance.</h1>
@@ -240,7 +240,7 @@
       <div class="story">
         <img class="story-image pull-left col-xs-12 col-md-6 col-lg-6" src="img/story-11.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Mike Kenney and Shannon Liauw">
         <h2 class="story-heading">Chemist in the classroom. <span class="text-muted">Chemistry on the dance floor.</span></h2>
-        <p class="lead">In an effort to bring students and faculty together, we embarked on making an event truly unique to Case: Dancing with the CWRU Stars.  This event would also serve as a stepping stone to Dance Marathon and would prove if we had what takes. After months of planning and hard work, what became of it, was truly remarkable.</p>
+        <p class="lead">When recruiting Stars for the event, we knew we wanted to go big and you can't get much bigger than a first year chemistry professor.  Michael Kenney and Shannon Liauw opened the event with a great jive and set the tone for what turned out to be a spectacular night of performances.</p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
@@ -250,7 +250,7 @@
       <div class="story">
         <img class="story-image pull-right col-xs-12 col-sm-5 col-lg-3" src="img/story-11b.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars Glenn Nicholls as judge">
         <h2 class="story-heading">Tonight's judging. <span class="text-muted">The man of student life.</span></h2>
-        <p class="lead"> A supporter from the beginning, <a href="https://www.youtube.com/watch?v=0gxsrhuigps">Glenn Nicholls</a> has made a huge impact on the university and student life through his role as Vice President of Student Affairs.  We were absolutely honored to have him judge the inaugural Dancing with the CWRU Stars along side Director of Greek Life </p>
+        <p class="lead"> A supporter from the beginning, <a href="https://www.youtube.com/watch?v=0gxsrhuigps">Glenn Nicholls</a> has made a huge impact on the university and student life through his role as Vice President of Student Affairs.  We were absolutely honored to have him judge the inaugural Dancing with the CWRU Stars along side Director of Greek Life, Wes Schaub.</p>
       </div>
       
 <!-- =============================== storyboard =============================== -->
@@ -278,7 +278,7 @@
       <hr class="story-divider">
 
       <div class="story">
-        <img class="story-image pull-left col-xs-12 col-sm-5 col-lg-3" src="img/story-14.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars ryan keytack bianca rodriguez trophies">
+        <a href="http://www.youtube.com/watch?v=ealSOagWB9g"><img class="story-image pull-left col-xs-12 col-sm-5 col-lg-3" src="img/story-14.jpg" alt="dance marathon at case western reserve university dancing with the CWRU stars ryan keytack bianca rodriguez trophies"></a>
         <h2 class="story-heading">There are no winners or losers here. <span class="text-muted">But someone still gets a trophy.</span></h2>
         <p class="lead">We're still writing! Check back later for more of the story.</p>
       </div>

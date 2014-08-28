@@ -19,7 +19,8 @@
 echo " class=\"active\""; ?>><a href="/">Home</a></li>
 					<li<?php if ($thisPage=="Founders") 
 echo " class=\"active\""; ?>><a href="/founders">Founders</a></li>
-					<li><a href="downloads/Constitution-of-Dance-Marathon-at-CWRU.pdf">Constitution</a></li>
+					<li<?php if ($thisPage=="Constitution") 
+echo " class=\"active\""; ?>><a href="/constitution">Constitution</a></li>
 					<li><a href="http://www.spartanthon.org">SpartanThon</a></li>
 					<li><a href="#">Contact</a></li>
 				  </ul>
