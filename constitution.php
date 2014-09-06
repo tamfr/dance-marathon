@@ -233,10 +233,6 @@ Executive Protocols shall be any document produced by the Board of Directors tha
 <h3>Section 3.  General Orders</h3>
 A General Order is a procedure that all members of the Organization must follow under special circumstance as ordered by the Chair.  These orders need not be commonplace and should be designed for specific scenarios and situations.
 
-
-
-
-
 		</div><!-- /span -->
 	</div><!-- /.row -->
 	
@@ -246,12 +242,8 @@ A General Order is a procedure that all members of the Organization must follow 
 </div><!-- /#wrap -->
 
 <!-- FOOTER -->
-<div id="footer">
-	<div class="container">
-		<p class="pull-right"><a href="#">Back to top</a></p>
-		<p>&copy; 2014 Dance Marathon at Case Western Reserve University &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-	</div><!-- /.container -->
-</div><!-- /#footer -->
+!-- FOOTER -->
+<?php include_once("includes/footer.php") ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
