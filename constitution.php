@@ -242,7 +242,6 @@ A General Order is a procedure that all members of the Organization must follow 
 </div><!-- /#wrap -->
 
 <!-- FOOTER -->
-!-- FOOTER -->
 <?php include_once("includes/footer.php") ?>
 
     <!-- Bootstrap core JavaScript
