@@ -43,6 +43,7 @@ html,body {
 .navbar {
   border: 0px solid #e7e7e7;
   background: transparent;
+  margin-bottom: 0px;
 }
 
 .navbar-background {
@@ -387,9 +388,7 @@ nav.detached {
 
 /* constitution
 ------------------------- */
-.constitution {
 
-}
 
 .constitution ul {
 	margin-left: -10px;
@@ -413,7 +412,7 @@ nav.detached {
 
 	.preamble {
 		font-size: 42px;
-
+	}
 }
 
 
@@ -463,7 +462,11 @@ nav.detached {
 @media (min-width: 768px) {
 
 /* ---------- NAVBAR -------------------------------------------------- */
-
+	
+	.navbar {
+		margin-bottom: 20px;
+	}
+	
 	.navbar-nav > li > a {
 		padding-top: 15px;
 		padding-bottom: 15px;

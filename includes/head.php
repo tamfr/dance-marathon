@@ -1,7 +1,7 @@
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta property="og:url" content="http://dmcwru.org/" />
 <meta property="og:site_name" content="Dance Marathon at Case Western Reserve University" />
 <meta property="og:title" content="Dance Marathon at Case Western Reserve University" />
@@ -12,7 +12,7 @@
 <title>Dance Marathon at Case Western Reserve University</title>
 
 <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
 
 <!-- Custom styles for this template -->
-<link href="css/dance.css" rel="stylesheet">
+<link href="css/dance.css" rel="stylesheet"/>
