@@ -43,25 +43,25 @@
 		<h2>Article I.  Defined Terms</h2>
 <p>Capitalized terms shall have the definition set forth below:</p>
 <ul>
-<li>(a)	“Ab Initio” shall have the meaning set forth in Article V Section 2.</li>
-<li>(b)	“Aspirant” shall have the meaning set forth in Article V Section 3(b).</li>
-<li>(c)	“Board” means the Board of Directors.</li>
-<li>(d)	“Carpe DM” shall have the meaning set forth in Article V Section 3(a).</li>
-<li>(e)	“Class A Organization” refers to any organization with over 90 members and/or has an annual budget of over $250,000.</li>
-<li>(f)	“Classes” refers to Case Western Reserve University classes.</li>
-<li>(g)	“Conduct Unbecoming of an Officer” shall be regarded as any conduct deemed unlawful, against this Constitution of Dance Marathon at Case Western Reserve University (the “Organization”), or adverse to the point of putting the Organization in jeopardy as determined by the Board.</li>
-<li>(h)	A “Donor” shall be any person, group, organization, or company that gives a gift to Dance Marathon at Case Western Reserve University.</li>
-<li>(i)	“Entire Board” shall have the meaning set forth in Article III Section 2(a).</li>
-<li>(j)	“Entire Organization” refers to all members and advisers.</li>
-<li>(k)	“Executive Protocols” shall have the meaning set forth in Article X Section 2.</li>
-<li>(l)	“General Orders” shall have the meaning set forth in Article X Section 3.</li>
-<li>(m)	“In Medias Res” shall have the meaning set forth in Article V Section 3.</li>
-<li>(n)	“Mission” shall be a one sentence summary of the goals and beliefs of the organization as set forth from time to time by the Board.</li>
-<li>(o)	“Organization” means Dance Marathon at Case Western Reserve University.</li>
-<li>(p)	“Performance and Accountability Report” shall be an annual report that summarizes the previous years efforts including a full financial review.</li>
-<li>(q)	“Petition for Nomination” shall have the meaning set forth in Article III Section 4(c)(ii)(b).</li>
-<li>(r)	A “Postulant” shall be any person seeking membership in the Organization after the start of fall Classes and until the end of Carpe DM.</li>
-<li>(s)	 “Seal” shall be the official and formal symbol of the Organization that may be affixed to any official correspondence internal or external to the Organization.</li>
+<li>(a)	“<i>Ab Initio</i>” shall have the meaning set forth in Article V Section 2.</li>
+<li>(b)	“<i>Aspirant</i>” shall have the meaning set forth in Article V Section 3(b).</li>
+<li>(c)	“<i>Board</i>” means the Board of Directors.</li>
+<li>(d)	“<i>Carpe DM</i>” shall have the meaning set forth in Article V Section 3(a).</li>
+<li>(e)	“<i>Class A Organization</i>” refers to any organization with over 90 members and/or has an annual budget of over $250,000.</li>
+<li>(f)	“<i>Classes</i>” refers to Case Western Reserve University classes.</li>
+<li>(g)	“<i>Conduct Unbecoming of an Officer</i>” shall be regarded as any conduct deemed unlawful, against this Constitution of Dance Marathon at Case Western Reserve University (the “<i>Organization</i>”), or adverse to the point of putting the Organization in jeopardy as determined by the Board.</li>
+<li>(h)	A “<i>Donor</i>” shall be any person, group, organization, or company that gives a gift to Dance Marathon at Case Western Reserve University.</li>
+<li>(i)	“<i>Entire Board</i>” shall have the meaning set forth in Article III Section 2(a).</li>
+<li>(j)	“<i>Entire Organization</i>” refers to all members and advisers.</li>
+<li>(k)	“<i>Executive Protocols</i>” shall have the meaning set forth in Article X Section 2.</li>
+<li>(l)	“<i>General Orders</i>” shall have the meaning set forth in Article X Section 3.</li>
+<li>(m)	“<i>In Medias Res</i>” shall have the meaning set forth in Article V Section 3.</li>
+<li>(n)	“<i>Mission</i>” shall be a one sentence summary of the goals and beliefs of the organization as set forth from time to time by the Board.</li>
+<li>(o)	“<i>Organization</i>” means Dance Marathon at Case Western Reserve University.</li>
+<li>(p)	“<i>Performance and Accountability Report</i>” shall be an annual report that summarizes the previous years efforts including a full financial review.</li>
+<li>(q)	“<i>Petition for Nomination</i>” shall have the meaning set forth in Article III Section 4(c)(ii)(b).</li>
+<li>(r)	A “<i>Postulant</i>” shall be any person seeking membership in the Organization after the start of fall Classes and until the end of Carpe DM.</li>
+<li>(s)	 “<i>Seal</i>” shall be the official and formal symbol of the Organization that may be affixed to any official correspondence internal or external to the Organization.</li>
 </ul>
 
 <h2>Article II.  Organs</h2>
@@ -159,25 +159,31 @@
 <h2>Article IV.  The Dance Marathon Assembly</h2>
 <h3>Section 1.  General</h3>
 The Marathon Assembly is the annual meeting of the Entire Organization wherein all electoral proceedings take place.  During this meeting, any transaction of business may also occur.  The current Board shall set the time and place of this meeting at least two months prior to its incidence.  This meeting must occur on either the second or third Saturday in November.  The function of the Marathon Assembly is to:
-(a)	elect officers to the Board pursuant to Article III Section 4;
-(b)	advise the Board on matters concerning (i) budget, (ii) fundraising strategy, (iii) dates of events, (iv) dates of meetings, and (v) any other issues on the competence of the Organization;
-(c)	to review and establish committees;
-(d)	to review and establish advisory boards;
-(e)	to review and approve all General Orders.
+<ul>
+<li>(a)	elect officers to the Board pursuant to Article III Section 4;</li>
+<li>(b)	advise the Board on matters concerning (i) budget, (ii) fundraising strategy, (iii) dates of events, (iv) dates of meetings, and (v) any other issues on the competence of the Organization;</li>
+<li>(c)	to review and establish committees;</li>
+<li>(d)	to review and establish advisory boards;</li>
+<li>(e)	to review and approve all General Orders.</li>
+</ul>
 
 <h2>Article V.  The General Assembly</h2>
 <h3>Section 1.  General</h3>
 The General Assembly is the meeting of the Organization wherein all business transactions may occur.  Contrary to the Marathon Assembly, the General Assembly may not elect officers.  The required meetings of the General Assembly shall take place (1) the first Saturday following the start of spring Classes, (2) once during the month of April, and (3) once during the first two weeks following the start of fall classes.  The Board of Directors has the power and authority to call a General Assembly other than those required so long as written notice is made available to the Organization at least 5 days prior to its occurrence.  The function of the General Assembly is to:
-(a)	advise the Board on matters concerning (i) budget, (ii) fundraising strategy, (iii) dates of events, (iv) dates of meetings, protocol, and (v) any other issues on the competence of the Organization;
-(b)	to review and establish committees;
-(c)	to review and establish advisory boards;
-(d)	to review and approve all General Orders.
+<ul>
+<li>(a)	advise the Board on matters concerning (i) budget, (ii) fundraising strategy, (iii) dates of events, (iv) dates of meetings, protocol, and (v) any other issues on the competence of the Organization;
+<li>(b)	to review and establish committees;
+<li>(c)	to review and establish advisory boards;
+<li>(d)	to review and approve all General Orders.
+</ul>
 <h3>Section 2.  Ab Initio</h3>
 The first General Assembly following the start of spring Classes, hereinafter referred to as Ab Initio, shall swear in the newly elected Board of Directors.  This process shall be outlined in an Executive Protocol.
 <h3>Section 3.  In Medias Res</h3>
 The first General Assembly following the start of fall Classes, hereinafter referred to as In Medias Res, shall accept potential new members of the organization as Postulants. 
-(a)	Carpe DM.  Carpe DM shall be a four-week period following In Medias Res wherein all Postulants must either be placed to a position on a committee or held as an Aspirant.  
-(b)	Aspirants.  An Aspirant is any person seeking membership in the Organization following Carpe DM.   An Aspirant may be as involved in the Organization as he or she wishes so long as his or her participation does not impede the work of the Organization.  An Aspirant may be appointed to a committee at any time upon resolution of the Board.  An Aspirant is not a member of the Organization.
+<ul>
+<li>(a)	Carpe DM.  Carpe DM shall be a four-week period following In Medias Res wherein all Postulants must either be placed to a position on a committee or held as an Aspirant.</li>  
+<li>(b)	Aspirants.  An Aspirant is any person seeking membership in the Organization following Carpe DM.   An Aspirant may be as involved in the Organization as he or she wishes so long as his or her participation does not impede the work of the Organization.  An Aspirant may be appointed to a committee at any time upon resolution of the Board.  An Aspirant is not a member of the Organization.</li>
+</ul>
 
 <h2>Article VI.  Advisory Boards</h2>
 <h3>Section 1.  Standing Advisory Boards </h3>
