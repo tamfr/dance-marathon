@@ -204,8 +204,10 @@ Subcommittees may be formed within committees to better distribute and handle wo
 
 <h2>Article VIII.  Membership</h2>
 Membership in the Organization is only open to undergraduate students of Case Western Reserve University.  Persons serving on an advisory board are not considered to be members of the Organization.  A member is:
-(a)	any person serving on the Board;
-(b)	any person holding a position on a committee.
+<ul>
+<li>(a)	any person serving on the Board;</li>
+<li>(b)	any person holding a position on a committee.</li>
+</ul>
 
 <h2>Article IX.  Funds of the Organization</h2>
 <h3>Section 1.  Authority to Receive </h3>
