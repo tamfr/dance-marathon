@@ -16,7 +16,6 @@
 </div><!-- /#wrap -->
 
 <!-- FOOTER -->
-!-- FOOTER -->
 <?php include_once("includes/footer.php") ?>
 
     <!-- Bootstrap core JavaScript
